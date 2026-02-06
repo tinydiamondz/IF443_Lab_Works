@@ -1,8 +1,9 @@
 package oop_00000130426_RafiAthallahAhmadHaryanto.week01
 
 fun main () {
-    var name: String = "Rafi Athallah Ahmad Haryanto"
-    var score: Int = 100
+    val name = "Rafi Athallah Ahmad Haryanto"
+    val score = 100
 
-    println("Nama: " + name + ", Score: " + score)
+    //pake string template ($name)
+    println("Nama: $name, Nilai: $score")
 }

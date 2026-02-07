@@ -3,7 +3,7 @@ package oop_00000130426_RafiAthallahAhmadHaryanto.week01
 fun main () {
     val gameTitle: String = "Call of Duty: Black Ops 7"
     val price: Int = 1200000
-    calculateDiscount(price)
+    printReceipt(gameTitle, calculateDiscount(price))
 }
 
 fun calculateDiscount(price: Int): Int {
@@ -14,3 +14,7 @@ fun calculateDiscount(price: Int): Int {
     }
 }
 
+fun printReceipt(title: String, finalPrice: Int) {
+    println("Game Title : $title")
+    println("Final Price: Rp $finalPrice")
+}

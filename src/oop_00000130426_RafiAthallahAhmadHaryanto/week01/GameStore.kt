@@ -15,6 +15,8 @@ fun calculateDiscount(price: Int): Int {
 }
 
 fun printReceipt(title: String, finalPrice: Int) {
+    var userNote: String? = null
     println("Game Title : $title")
     println("Final Price: Rp $finalPrice")
+    println(userNote?: "Tidak ada catatan")
 }

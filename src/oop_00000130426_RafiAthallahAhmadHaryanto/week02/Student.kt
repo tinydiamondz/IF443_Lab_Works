@@ -1,5 +1,13 @@
 package oop_00000130426_RafiAthallahAhmadHaryanto.week02
 
 class Student (val name: String, val nim: String, var major: String) {
-    //body class kosong dulu
+    init {
+        // Validasi sederhana: Cek panjang NIM
+        if(nim.length != 5) {
+            println("WARNING: Objek tercipta dengan NIM ($nim) yang tidak valid!")
+            println("Data mahasiswa $name mungkin akalnn bermasalah di sistem.")
+        }else{
+            println("LOG: Objek Student $name berhasil dialokasikan di Memory.")
+        }
+    }
 }

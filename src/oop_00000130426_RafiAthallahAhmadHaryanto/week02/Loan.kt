@@ -24,4 +24,5 @@ fun main () {
     println("Borrowed by: ${Loan.borrowed}")
     println("Duration   : ${Loan.loanDuration} hari")
     println("Denda      : Rp ${Loan.denda}")
+
 }

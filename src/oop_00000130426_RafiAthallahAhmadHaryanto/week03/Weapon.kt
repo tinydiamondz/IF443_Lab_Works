@@ -1,7 +1,5 @@
 package oop_00000130426_RafiAthallahAhmadHaryanto.week03
 
-import java.util.Scanner
-
 class Weapon (val name: String){
     var damage: Int = 0
         set(value) {

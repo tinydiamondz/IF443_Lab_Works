@@ -1,4 +1,4 @@
-package oop_00000130426_RafiAthallahAhmadHaryanto.week6
+package oop_00000130426_RafiAthallahAhmadHaryanto.week06
 
 class SmartHomeHub {
     val devices = mutableListOf<SmartDevice>()

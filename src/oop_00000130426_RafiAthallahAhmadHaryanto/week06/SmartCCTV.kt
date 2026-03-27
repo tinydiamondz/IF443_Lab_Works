@@ -1,4 +1,4 @@
-package oop_00000130426_RafiAthallahAhmadHaryanto.week6
+package oop_00000130426_RafiAthallahAhmadHaryanto.week06
 
 class SmartCCTV(override val id: String, override val name: String): SmartDevice, Switchable, Recordable {
     override fun startRecord() {

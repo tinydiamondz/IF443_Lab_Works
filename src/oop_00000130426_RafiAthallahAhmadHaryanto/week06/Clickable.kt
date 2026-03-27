@@ -1,4 +1,4 @@
-package oop_00000130426_RafiAthallahAhmadHaryanto.week6
+package oop_00000130426_RafiAthallahAhmadHaryanto.week06
 
 interface Clickable {
     val name: String // Abstract property, tidak ada nilai default

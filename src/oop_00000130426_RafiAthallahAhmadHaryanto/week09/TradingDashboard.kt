@@ -68,4 +68,10 @@ fun main() {
 
     // Cek hasil
     println(uniquePairs)
+
+    println("=== CRYPTO TRADING DASHBOARD ===")
+
+    topPerformersString.forEach {
+        println(it)
+    }
 }
